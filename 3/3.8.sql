@@ -1,0 +1,2 @@
+DELETE FROM Project where ProjID = (SELECT ProjID FROM Works 
+WHERE EmpID IS NULL)

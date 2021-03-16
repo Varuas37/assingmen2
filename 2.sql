@@ -1,0 +1,65 @@
+insert into Employee (empID, empname, salary, dept)values (101, 'Alpha', 100,'HR')`;
+insert into Employee (empID, empname, salary, dept)values (202, 'Beck', 200,'ENGR')`;
+insert into Employee (empID, empname, salary, dept,Manager)values (303, 'Cody', 300, 'IT',202)`;
+insert into Employee (empID, empname, salary, dept,Manager)values (404, 'Duke', 400, 'HR',101)`;
+insert into Employee (empID, empname, salary, dept,Manager)values (505, 'Elon', 500, 'ENGR',202)`;
+insert into Employee (empID, empname, salary, dept,Manager)values (606, 'Frank', 600, 'IT',202);
+insert into Employee (empID, empname, salary, dept,Manager)values (707, 'Gaurav', 700, 'IT',202);
+insert into Employee (empID, empname, salary, dept,Manager)values (808, 'Howdy', 800, 'HR',505);
+insert into Employee (empID, empname, salary, dept,Manager)values (909, 'Illiah', 900, 'ENGR',404);
+insert into Employee (empID, empname, salary, dept,Manager)values (110, 'Jack', 1000, 'ENGR',303);
+
+insert into Project (projID, Loc, Budget, Lead)values ('Project1', 'N', 1000,101);
+insert into Project (projID, Loc, Budget, Lead)values ('Project2', 'E', 2000,303);
+insert into Project (projID, Loc, Budget, Lead)values ('Project3', 'W', 3000,505);
+insert into Project (projID, Loc, Budget, Lead)values ('Project4', 'S', 4000,707);
+insert into Project (projID, Loc, Budget, Lead)values ('Project5', 'N', 5000,909);
+insert into Project (projID, Loc, Budget, Lead)values ('Project6', 'E', 6000,202);
+insert into Project (projID, Loc, Budget, Lead)values ('Project7', 'W', 7000,404);
+insert into Project (projID, Loc, Budget, Lead)values ('Project8', 'S', 8000,606);
+insert into Project (projID, Loc, Budget, Lead)values ('Project9', 'N', 9000,808);
+insert into Project (projID, Loc, Budget, Lead)values ('Project10','E', 10000,110);
+
+
+insert into Works (EmpID, ProjID, Hours)values ('101','Project1', 5);
+insert into Works (EmpID, ProjID, Hours)values ('101','Project2', 10);
+insert into Works (EmpID, ProjID, Hours)values ('101','Project3', 15);
+insert into Works (EmpID, ProjID, Hours)values ('101','Project4', 20);
+insert into Works (EmpID, ProjID, Hours)values ('202','Project5', 5);
+insert into Works (EmpID, ProjID, Hours)values ('202','Project6', 10);
+insert into Works (EmpID, ProjID, Hours)values ('202','Project7', 15);
+insert into Works (EmpID, ProjID, Hours)values ('202','Project8', 20);
+insert into Works (EmpID, ProjID, Hours)values ('303','Project9', 15);
+insert into Works (EmpID, ProjID, Hours)values ('303','Project10', 5);
+insert into Works (EmpID, ProjID, Hours)values ('303','Project1', 10);
+insert into Works (EmpID, ProjID, Hours)values ('303','Project2', 15);
+insert into Works (EmpID, ProjID, Hours)values ('404','Project3', 20);
+insert into Works (EmpID, ProjID, Hours)values ('404','Project4', 5);
+insert into Works (EmpID, ProjID, Hours)values ('404','Project5', 10);
+insert into Works (EmpID, ProjID, Hours)values ('404','Project6', 15);
+insert into Works (EmpID, ProjID, Hours)values ('505','Project7', 20);
+insert into Works (EmpID, ProjID, Hours)values ('505','Project8', 5);
+insert into Works (EmpID, ProjID, Hours)values ('505','Project9', 10);
+insert into Works (EmpID, ProjID, Hours)values ('505','Project10', 15);
+insert into Works (EmpID, ProjID, Hours)values ('606','Project10', 20);
+insert into Works (EmpID, ProjID, Hours)values ('606','Project9', 5);
+insert into Works (EmpID, ProjID, Hours)values ('606','Project8', 10);
+insert into Works (EmpID, ProjID, Hours)values ('606','Project7', 15);
+insert into Works (EmpID, ProjID, Hours)values ('707','Project6', 20);
+insert into Works (EmpID, ProjID, Hours)values ('707','Project5', 5);
+insert into Works (EmpID, ProjID, Hours)values ('707','Project4', 10);
+insert into Works (EmpID, ProjID, Hours)values ('707','Project3', 15);
+insert into Works (EmpID, ProjID, Hours)values ('808','Project2', 20);
+insert into Works (EmpID, ProjID, Hours)values ('808','Project1', 5);
+insert into Works (EmpID, ProjID, Hours)values ('808','Project1', 10);
+insert into Works (EmpID, ProjID, Hours)values ('808','Project2', 15);
+insert into Works (EmpID, ProjID, Hours)values ('909','Project3', 20);
+insert into Works (EmpID, ProjID, Hours)values ('909','Project4', 5);
+insert into Works (EmpID, ProjID, Hours)values ('909','Project5', 10);
+insert into Works (EmpID, ProjID, Hours)values ('909','Project6', 15);
+insert into Works (EmpID, ProjID, Hours)values ('110','Project7', 20);
+insert into Works (EmpID, ProjID, Hours)values ('110','Project8', 5);
+insert into Works (EmpID, ProjID, Hours)values ('110','Project9', 10);
+insert into Works (EmpID, ProjID, Hours)values ('110','Project10', 15);
+
+
